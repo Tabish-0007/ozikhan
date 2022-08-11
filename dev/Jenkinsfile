@@ -1,0 +1,16 @@
+pipeline {
+  agent any
+
+  stages {
+    stage('Dev_build') {
+      steps {
+        bat'''
+		      echo 'obaid Ullah Tabish da dev build di'
+			  echo 'finish'
+		'''
+      }
+    }
+
+   }
+}
+	
